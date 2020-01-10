@@ -3,27 +3,20 @@
 Welcome to the TPH first guided project!
 The goal of this event is to help guide you through the steps of building a self contained project.
 
-The supported languages for this project are
+Any questions about the project, goals, or queries can be handled in the event channel.
 
-- Python
-- C
-- C++ 
-- Rust
-- Java
-- Kotlin
-- Javascript
+You can use any language that the server currently has a channel for.
 
 This project will expect you to have basic understanding of the language you are using and have a few extra tools 
-installed like; `git` 
+installed like; `git`, `netcat` (linux), `putty` (windows)
 
 [//]: <> (Other tools here)
 
 This project will guide you in the direction of what you need to do but it leaves individual learning up to you.
 Feel free to ask for help, search topics online, look for tutorials for any of the concepts presented.
 
-The idea is to guide you along but not give you all the answers.
-
-[//]: <> (Feel free to tack more languages on.)
+The idea is to guide you along but not give you all the answers. There will be pseudo code in some of the chapters in 
+this project its down to you to achieve the functionality in your language of choice.
 
 ## Rules
 
@@ -41,12 +34,14 @@ The idea is to guide you along but not give you all the answers.
 | [Chapter 4](chapter4.md) | Writing to the socket |
 | [Chapter 5](chapter5.md) | Reading from the socket |
 | [Chapter 6](chapter6.md) | Request - Response |
-| [Chapter 7](chapter7.md) | Testing |
-| [Chapter 8](chapter8.md) | Protocol | 
-| [Chapter 9](chapter9.md) | Headers and bodies |
-| [Chapter 10](chapter10.md) | Security |
-| [Chapter 11](chapter11.md) | Configuration |
-| [Chapter 12](chapter12.md) | Deployment |
+| [Chapter 7](Chapter7.md) | Documentation and clean code |
+| [Chapter 8](chapter7.md) | Testing |
+| [Chapter 9](chapter8.md) | Protocol | 
+| [Chapter 10](chapter9.md) | Headers and bodies |
+| [Chapter 11](chapter11.md) | Streaming resources |
+| [Chapter 12](chapter12.md) | Configuration |
+| [Chapter 13](chapter13.md) | Security |
+| [Chapter 14](chapter14.md) | Deployment |
 
 | Bonus Topics |
 | --- |

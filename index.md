@@ -38,11 +38,11 @@ The pseudo code isn't representative of a final project and is there to convey s
 | [Chapter 7](chapter7.md) | Testing |
 | [Chapter 8](chapter8.md) | Multiple connections at once |
 | [Chapter 9](chapter9.md) | Documentation and clean code |
-| [Chapter 10](chapter10.md) | Headers and bodies |
-| [Chapter 11](chapter11.md) | Streaming resources |
+| [Chapter 10](chapter10.md) | Methods and resources |
+| [Chapter 11](chapter11.md) | Headers and bodies |
 | [Chapter 12](chapter12.md) | Configuration |
 | [Chapter 13](chapter13.md) | Security |
-| [Chapter 14](chapter14f.md) | Deployment |
+| [Chapter 14](chapter14.md) | Deployment |
 
 | Bonus Topics |
 | --- |

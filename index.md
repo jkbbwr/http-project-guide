@@ -23,7 +23,8 @@ The pseudo code isn't representative of a final project and is there to convey s
 
 [//]: <> (Need some help filling in the rules section)
 
-- Don't be an ass.
+- Put in the work yourself. Don't copy and paste, the only person you are cheating is you.
+- If you are helping don't spoon-feed. Its about the journey not the destination.
 
 ## Index
 
@@ -40,9 +41,9 @@ The pseudo code isn't representative of a final project and is there to convey s
 | [Chapter 9](chapter9.md) | Documentation and clean code |
 | [Chapter 10](chapter10.md) | Methods and resources |
 | [Chapter 11](chapter11.md) | Headers and bodies |
-| [Chapter 12](chapter12.md) | Configuration |
-| [Chapter 13](chapter13.md) | Security |
-| [Chapter 14](chapter14.md) | Deployment |
+| [Chapter 12](chapter12.md) | Replying |
+| [Chapter 13](chapter13.md) | Config |
+| [Chapter 14](chapter14.md) | Security |
 
 | Bonus Topics |
 | --- |

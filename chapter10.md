@@ -19,11 +19,11 @@ The methods are `OPTIONS` or `GET` or `HEAD` or `POST` or `PUT` or `DELETE` or `
 Some of these you might have experienced before, others are a bit more unusual.
 
 `GET` is the simplest with "GET me this resource". Get is also considered idempotent which means the act of doing it again 
-should cause *no* side effects, it can also be cached.
+should have identical results, cause *no* side effects, it can also be cached.
 
-`PUT` is "PUT something at this resource". This method is also considered pure and is usually used to create or update a resource.
+`PUT` is "PUT something at this resource". This method is also considered idempotent and is usually used to create or update a resource.
 
-`HEAD` is identical to `GET` but doesn't return the resource, only the headers and start of the request. It is also idempotent.
+`HEAD` is identical to `GET` but doesn't return the resource, only the headers (more on headers and responses in the next chapter) and start of the request. It is also idempotent.
 
 `POST` post is explicitly to create new entries at the located resource. It should not be cached and should not be considered idempotent.
 

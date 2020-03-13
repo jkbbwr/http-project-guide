@@ -2,7 +2,7 @@
 
 Its a good start, we have a server that can accept connections. It will write a message to the client. 
 
-But we arn't reading anything from the client. This will all change now. 
+But we aren't reading anything from the client. This will all change now. 
 
 Most network bindings will have a `recv` method. This method allows you to receive some bytes from the client.
 There might be higher level abstractions like `recv_line` or `recv_all` or something like that but we are gonna focus 
@@ -19,6 +19,7 @@ client.send("You said: \n");
 client.send(reply);
 client.close();
 ```
+Note that you can also test your server with netcat, use netcat as a client and whatever you write in the terminal will be sent to the server.
 
 ## Goals
 

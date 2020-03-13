@@ -1,12 +1,15 @@
 ## Chapter 6: What is a protocol?
-How do you think clients and servers talk to each other? 
-They need some sort of agreed way to ask for things and to communicate replies or errors. This is 
-commonly known as a protocol. We are going to create a really simple protocol for getting and storing strings.
+How do we humans communicate? Through a mutually agreed convention of a language and conventions.
+Similarly, How do we make clients and servers talk to each other? 
+They need some sort of agreed way to ask for things and respond with replies or errors. This mutually agreed set of rules is commonly known as a protocol.
 
+In this chapter, we are going to create a really simple protocol for getting and storing strings, a *dictionary*.
 With our hypothetical protocol your server will store the definition to a series of words.
 You can do this nice and simply with a map like data structure or something more complex, your choice.
 
-The client will connect and send
+In a client-server architecture, genrally a client initiates communication by making a request to the server. In our case, the client will make a request to *get* a definition from the dictionary server.
+
+To *get* a definition, the client will send this:
 ```
 GET someword
 ```
@@ -23,7 +26,7 @@ or
 ```
 ERROR can't find someword
 ```
-We have created a simple reading protocol. This protocol can be extended by adding a new 
+We have created a simple reading protocol. This protocol can be extended by adding new requests of the form:
 ```
 VERB args go here
 ```
